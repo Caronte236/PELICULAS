@@ -1,83 +1,92 @@
 <html>
-    <head>
-        <link rel="icon" type="image/x-icon" href="RECURSOS/zone_person_idle_36dp_E8EAED_FILL0_wght400_GRAD0_opsz40.png">
-        <title>MENU</title>
-    
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Geist+Mono:wght@100..900&display=swap');
-    
-            .background {
-                position: fixed; 
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-image: url(RECURSOS/2124a86d-ad10-494c-b418-11269680c34b.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                opacity: 90%; 
-                z-index: -1; 
-            }
-    
-            .titulo {
-                font-family: "Archivo Black", sans-serif;
-                font-weight: normal; 
-                font-style: normal;
-                font-size: 50;
-                color: rgb(82, 15, 10);
+<head>
+    <link rel="icon" type="image/x-icon" href="RECURSOS/zone_person_idle_36dp_E8EAED_FILL0_wght400_GRAD0_opsz40.png">
+    <title>MENU</title>
 
-            }
-    
-            .nombres {
-                font-family: "Geist Mono", monospace;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 20;
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Geist+Mono:wght@100..900&display=swap');
 
-            }
-    
-            body {
-                margin-top: 100px; 
-            }
-    
-            table, tr, td {
-                border: 3px solid rgb(29, 28, 28);
-                text-align: center;
-            }
-    
-            a {
-                color: white;
-                text-decoration: none;
-            }
-    
-            a:hover {
-                color: #01aa56;
-            }
-        </style>
-    </head>
-    
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(RECURSOS/2124a86d-ad10-494c-b418-11269680c34b.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 90%;
+            z-index: -1;
+        }
+
+        .titulo {
+            font-family: "Archivo Black", sans-serif;
+            font-size: 50px;
+            color: rgb(82, 15, 10);
+        }
+
+        .nombres {
+            font-family: "Geist Mono", monospace;
+            font-size: 20px;
+        }
+
+        body {
+            margin-top: 40px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        tr, td {
+            border: 3px solid rgb(29, 28, 28);
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        img {
+            width: 310px;
+            height: 360px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #01aa56;
+        }
+    </style>
+</head>
+
 <body>
-    
     <div class="background"></div>
 
     <center>
         <table>
             <tr>
-                <td colspan="3" class="titulo">GENERO DE PELICULAS</td>
+                <td colspan="4" class="titulo">GÉNERO DE PELÍCULAS</td>
             </tr>
             <tr>
-                <td><a href="link"><img src="RECURSOS/n.jpg" width="400px" height="500px"></a></td>
-                <td><a href="link"><img src="RECURSOS/f.jpg" width="400px" height="500px"></a></td>
-                <td><a href="link"><img src="RECURSOS/jj.jpg" width="400px" height="500px"></a></td>
+                <td><a href="link"><img src="RECURSOS/n.jpg" alt="Aventura"></a></td>
+                <td><a href="link"><img src="RECURSOS/f.jpg" alt="Suspenso"></a></td>
+                <td><a href="link"><img src="RECURSOS/AK.jpg" alt="Fantasía"></a></td>
+                <td><a href="link"><img src="RECURSOS/jj.jpg" alt="Animado"></a></td>
             </tr>
             <tr class="nombres">
                 <td><a href="link">AVENTURA</a></td>
                 <td><a href="link">SUSPENSO</a></td>
-                <td><a href="link">FANTASIA</a></td>
+                <td><a href="link">FANTASÍA</a></td>
+                <td><a href="link">ANIMADO</a></td>
             </tr>
         </table>
     </center>
     <BR></BR>
-
 </body>
 </html>
